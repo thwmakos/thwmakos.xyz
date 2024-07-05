@@ -1,0 +1,38 @@
+/* 
+ Mon 19 Oct 15:39:49 EEST 2020
+ ~thwmakos~
+*/
+body {
+	text-align: center;
+}
+
+img.displayed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li {
+	font-size: larger;
+}
+
+ul {
+	display: inline-block;
+	text-align: left;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: black; 
+		color: white; 
+	}
+	a:link {
+		color: pink 
+	}
+	a:visited {
+		color: hotpink 
+	}
+	a:hover {
+		color: lightblue
+	}
+}
